@@ -46,6 +46,6 @@ class EventsController < ApplicationController
 
     # Only allow a trusted parameter "white list" through.
     def event_params
-      ActiveModelSerializers::Deserialization.jsonapi_parse(params, only: [:nume, :descriere, :machine])
+      ActiveModelSerializers::Deserialization.jsonapi_parse(params, only: [:nume, :descriere, :machine, :stare, :contor])
     end
 end
