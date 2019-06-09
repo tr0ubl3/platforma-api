@@ -1,0 +1,11 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  producator: MyString
+  nr_operatie: MyString
+  nr_producator: MyString
+
+two:
+  producator: MyString
+  nr_operatie: MyString
+  nr_producator: MyString
